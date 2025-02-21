@@ -58,12 +58,13 @@ const SearchBar = () => {
 
 
     const formatTime = (time) => {
-        const [date, timePart] = time.split(' '); // Remove the unused variable 'date'
+        const timePart = time.split(' ')[1]; // Remove the unused variable 'date'
         let [hours, minutes] = timePart.split(':');
         const ampm = hours >= 12 ? 'PM' : 'AM';
         hours = hours % 12 || 12; // Convert to 12-hour format
         return `${hours}:${minutes} ${ampm}`;
     };
+
 
 
 
