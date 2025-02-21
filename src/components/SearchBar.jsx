@@ -30,7 +30,7 @@ const SearchBar = () => {
 
     const sendInput = async () => {
         try {
-            const response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=6d14733c63a644acb8b115246250902&q=${input}&aqi=yes`);
+            const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=6d14733c63a644acb8b115246250902&q=${input}&aqi=yes`);
             setWeatherData({
                 Temp: response.data.current.temp_c + '°C',
                 Weather: response.data.current.condition.text,
