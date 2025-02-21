@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
+body {
+  background-color: #a8dadc;
+}
+.Time{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #023e8a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px;
+  position: relative;
+}
+.WeatherForcast {
+  text-align: center;
+  color: #023e8a;
+  font-size: 3rem;
+  font-weight: 1000;
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute; /* Position absolutely within the header-container */
+  left: 50%; /* Move to the center */
+  transform: translateX(-50%); /* Center the element */
+}
+.Time {
+  color: #023e8a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: auto; /* Push the Time element to the right */
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+.mb-3{
+  width: 70%;
+  align-items: center;
+  text-align: center;
+}
+#basic-addon2{
+  background-color: #023e8a;
+  color: black;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5.5px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-family:Bebas Neue ;
+}
+#basic-addon2:hover{
+  background-color: #1d3557;
+  color: rgb(193, 63, 63);
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor:pointer;
+  font-family:Bebas Neue ;
+}
+.SearchBar{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 1.2rem;
+  padding: 2px;
+  border: none;
+  font-weight: 10;
+  width: 60%;
+  height: 30px;
+  margin-left: 30px;
+  
+}
+.Location p{
+  display: inline;
+  margin: 10px;
+  font-family: Monomakh;
+}
+.card1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.firstrow{
+  margin: 15px;
+}
+.secondrow{
+  margin:35px;
+}
+.card-title {
+  font-family: Preahvihear;
+  font-size: 1.4rem;
+}
+.weather-data {
+  font-family: Bebas Neue;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.gethub-link{
+  cursor: pointer;
+  display: inline;
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  text-align: right;
+  margin-right: 10px;
+}
+.gethub-link:hover{
+  color:  #1f4d4f;
+}
+.address{
+  display: inline;
+  cursor: pointer;
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  text-align: right;
+  margin-right: 10px;
+}
+.address:hover{
+  color:  #1f4d4f;
+  cursor: pointer;
+}
+
